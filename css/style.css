@@ -482,7 +482,11 @@ pre {
   margin-left: auto; }
 
 .vidio{
-  margin-top: 3;
+  margin-top: 3px;
+}
+
+.booking{
+  margin-bottom: 3px;
 }
 
 .row {
