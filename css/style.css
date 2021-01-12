@@ -7660,7 +7660,8 @@ h1, h2, h3, h4, h5,
     outline: none; }
   .btn.btn-primary {
     background: #d34443;
-    color: #fff; }
+    color: #fff;
+  margin-bottom: 40px; }
     .btn.btn-primary:hover {
       border: 1px solid #ffffff;
       background: transparent !important;
