@@ -48,6 +48,15 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+
+  @font-face {
+    font-family: "DreamOrphans";
+    src: url("../fonts/Walkway.ttf");
+  }
+
+  .fuente{
+    font-family: DreamOrphans;
+  }
 @-ms-viewport {
   width: device-width; }
 
@@ -304,7 +313,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: DreamOrphans;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -7661,7 +7670,8 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #d34443;
     color: #fff;
-  margin-bottom: 40px; }
+    margin-bottom: 40px; 
+}
     .btn.btn-primary:hover {
       border: 1px solid #ffffff;
       background: transparent !important;
